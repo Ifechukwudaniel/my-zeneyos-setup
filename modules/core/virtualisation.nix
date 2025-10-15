@@ -10,9 +10,14 @@
     libvirtd = {
       enable = true;
     };
+    
+    virtualbox.guest = {
+      enable = true;
+      draganddrop = true;
+    };
 
     virtualbox.host = {
-      enable = false;
+      enable = true;
       enableExtensionPack = true;
     };
   };

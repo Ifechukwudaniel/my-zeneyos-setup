@@ -38,8 +38,8 @@ in
     ./qt.nix
     ./scripts
     ./scripts/gemini-cli.nix
-    #./starship.nix
-    #./starship-ddubs-1.nix
+    ./starship.nix
+    ./starship-ddubs-1.nix
     ./stylix.nix
     ./swappy.nix
     ./swaync.nix

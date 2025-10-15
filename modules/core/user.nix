@@ -25,6 +25,7 @@ in
     };
   };
   users.mutableUsers = true;
+  users.extraGroups.vboxusers.members = [ "vitual_box_user" ];
   users.users.${username} = {
     isNormalUser = true;
     description = "${gitUsername}";
