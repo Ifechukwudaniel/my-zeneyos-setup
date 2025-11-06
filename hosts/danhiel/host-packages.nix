@@ -10,5 +10,8 @@
     spotify
     yarn
     pnpm
+    python3
+    python3Packages.pip
+    poetry
   ];
 }
